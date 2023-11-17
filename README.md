@@ -21,8 +21,7 @@ From these data sets, the following insights were generated:
 - **A new database "PROJECT" was created and the 3 datasets were selected to view the columns therein.**
 
 #### Below are the queries used for this analysis and their results:
-![](Task2.png)
-![](TASK2RESULT.png)
+![](1.png)
 
 ---
 
@@ -32,8 +31,7 @@ To generate this insight the following analysis were carried out:
 2. Aggregate function "COUNT" was used for this analysis to count the total number of countries.
 
 #### Below are the queries used for this analysis and their results:
-![](Task2.png)
-![](TASK2RESULT.png)
+![](2.png)
 
 ---
    
