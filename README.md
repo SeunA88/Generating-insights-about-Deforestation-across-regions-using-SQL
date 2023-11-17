@@ -37,6 +37,18 @@ To generate this insight the following analysis were carried out:
    
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 **Using case statement, create a new column that specifies everything greater than 4 for the whole qualities as 'excellent', having atleast two qualities greater than 3 as 'Good' and everyother thing as 'poor'.**
 To generate this insight the following analysis were carried out:
