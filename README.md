@@ -23,6 +23,7 @@ From these data sets, the following insights were generated:
 #### Below are the queries used for this analysis and their results:
 ![](Task2.png)
 ![](TASK2RESULT.png)
+
 -----
 
 **Total number of countries involved in deforestation.**
@@ -33,6 +34,7 @@ To generate this insight the following analysis were carried out:
 #### Below are the queries used for this analysis and their results:
 ![](Task2.png)
 ![](TASK2RESULT.png)
+
 -----
    
 
