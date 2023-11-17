@@ -1,1 +1,1 @@
-# Generating-insights-about-Deforestation-across-regions-using-SQL
+# Generating insights about Deforestation across regions using SQL
