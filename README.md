@@ -3,7 +3,7 @@
 
 ----
 ## Introduction
-Deforestation is one of the main causes of climate change and global warming. Thess analysis looks into the occurrence of deforestation in various countries across different regions of the world. Data sets giving details of Deforestation activities across board were used for these analyses. Structured Query Language (SQL) was employed in this task to  create a new database, import these datasets and  generate insights from these datasets. Three sets of datasets presented in Excel format, were used in this analysis. They were imported into a database named 'PROJECT' . They are; 
+Deforestation is one of the main causes of climate change and global warming. This analysis looks into the occurrence of deforestation in various countries across different regions of the world. Data sets giving details of Deforestation activities across board were used in this analysis. Structured Query Language (SQL) was employed in this task to  create a new database, import these datasets and  generate insights from these datasets. Three sets of data presented in Excel format, were used in this analysis. They were imported into a database named 'PROJECT' . They are; 
 - forest_area dataset (https://github.com/SeunA88/Generating-insights-about-Deforestation-across-regions-using-SQL/blob/main/forest_area_(1)%5B1%5D.csv)
 - Land_area dataset (https://github.com/SeunA88/Generating-insights-about-Deforestation-across-regions-using-SQL/blob/main/land_area_(1)%5B1%5D.csv)
 - Regions_ dataset (https://github.com/SeunA88/Generating-insights-about-Deforestation-across-regions-using-SQL/blob/main/regions_(1)%5B1%5D.csv)
@@ -14,14 +14,17 @@ From these data sets, the following insights were generated:
 - The income groups of countries having total area ranging from 75,000 to 150,000 square meter.
 - The average area in square miles for countries in the 'upper middle income region'. The result was compared to the rest of the income categories.
 - The total forest area in square km for countries in the 'high income' group.  The result was compared to the rest of the income categories.
-- The countries from each region(continent) having the highest total forest areas. 
+- The countries from each region (continent) having the highest total forest areas. 
 
 ## Analysis of Datasets
-**Find the job title in the "Software developement" department that have a work life balance rating greater than 4 and a salary and benefits rating greater than 4.5.**
+
+** A new database "PROJECT" was created and the 3 datasets were selected to view the columns therein.**
+
+**Total number of countries involved in deforestation.**
 To generate this insight the following analysis were carried out:
-1. The dataset Employee_review was used. Unique values were first selected from the work life balance and the salary and benefits rating columns to check for the presence of null values.
-2. Average value for each column was calculated and used to replace all the null values in the columns.
-3. The distinct job titles that have a work life balance rating greater than 4 and a salary and benefits rating greater than 4.5 were then generated and further streamlined to Top 3.
+1. The dataset Region_ was used. 
+2. Aggregate function "COUNT" was used for this analysis to count the total number of countries.
+
    
 #### Below are the queries used for this analysis and their results:
 ![](Task2.png)
