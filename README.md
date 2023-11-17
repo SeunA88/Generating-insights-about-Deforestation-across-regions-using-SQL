@@ -27,8 +27,9 @@ From these data sets, the following insights were generated:
 
 - **Total number of countries involved in deforestation.**
 To generate this insight the following analysis were carried out:
-1. The dataset Region_ was used. 
-2. Aggregate function "COUNT" was used for this analysis to count the total number of countries.
+1. The dataset Region_ was used.
+2. Distinct countries were selected.
+3. Aggregate function "COUNT" was used for this analysis to count the total number of countries.
 
 #### Below are the queries used for this analysis and their results:
 ![](2.png)
