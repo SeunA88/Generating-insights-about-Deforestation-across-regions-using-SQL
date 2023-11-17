@@ -1,5 +1,5 @@
 # Generating insights about Deforestation across regions using SQL
-![](A.jpg)
+![](A1.jpg)
 
 ----
 ## Introduction
