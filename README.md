@@ -19,8 +19,10 @@ From these data sets, the following insights were generated:
 ## Analysis of Datasets
 
 **A new database "PROJECT" was created and the 3 datasets were selected to view the columns therein.**
-![]()
 
+#### Below are the queries used for this analysis and their results:
+![](Task2.png)
+![](TASK2RESULT.png)
 -----
 
 **Total number of countries involved in deforestation.**
@@ -28,12 +30,12 @@ To generate this insight the following analysis were carried out:
 1. The dataset Region_ was used. 
 2. Aggregate function "COUNT" was used for this analysis to count the total number of countries.
 
-![]()
------
-   
 #### Below are the queries used for this analysis and their results:
 ![](Task2.png)
 ![](TASK2RESULT.png)
+-----
+   
+
 
 ---
 **Using case statement, create a new column that specifies everything greater than 4 for the whole qualities as 'excellent', having atleast two qualities greater than 3 as 'Good' and everyother thing as 'poor'.**
