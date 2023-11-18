@@ -18,12 +18,18 @@ From these data sets, the following insights were generated:
 
 ## Analysis of Datasets
 
+- **Overview of the datasets**
+The datasets show the deforestation details of about 218 countries in the world from the year 1990 to year 2016. The countries were divided into four income groups; low income, high income, upper middle income and lower middle income groups/categories, and seven regions or continents including East Asia & Pacific, Europe & Central Asia, Latin America & Caribbean, Middle East & North Africa, North America, South Asia and Sub-Saharan Africa. The country Monaco has the smallest total area by square miles while Russian Federation has the largest. Faroe Islands have the smallest forest area by square kilometre while Russian Federation has the largest.
+
+---
+
 - **A new database "PROJECT" was created and the 3 datasets were selected to view the columns therein.**
 
 #### Below are the queries used for this analysis and their results:
 ![](1.png)
 
 ---
+
 
 - **Total number of countries involved in deforestation.**
 To generate this insight the following steps were carried out:
@@ -38,51 +44,70 @@ To generate this insight the following steps were carried out:
    
 - **The income groups of countries having total area ranging from 75,000 to 150,000 square meter**.
 To generate this insight the following steps were carried out:
-1. The dataset Region_ was used.
-2. Distinct countries were selected.
-3. Aggregate function "COUNT" was used for this analysis to count the total number of countries.
+1. Two datasets were used; Land_area and Region_ dataset.
+2. The total area in square miles column was checked for presence of null values.
+3. All null values were replaced with the average total area in square miles. 
+4. Then the two datasets were joined using JOIN function and filtered to get the results.
+5. Further analysis was carried out to select distinct results and order the results.
 
 #### Below are the queries used for this analysis and their results:
 ![](3.png)
 
----
-
-
-
-
-
-
-
-
-
-
-
-
-
-**Using case statement, create a new column that specifies everything greater than 4 for the whole qualities as 'excellent', having atleast two qualities greater than 3 as 'Good' and everyother thing as 'poor'.**
-To generate this insight the following analysis were carried out:
-1. A 'CASE' statement was generated firts to show all the conditions stated.
-2. The table was then altered to add a new column called 'REMARK'.
-3. The new column 'REMARK' was the updated to have values.
-
-#### Below are the queries used for this analysis and their results:
-![](Task28.png)
-![](Task29.png)
+![](5.png)
 
 ---
-**Using the other three tables above, show the average yearly increment for employees in each department. Show departments with an average yearly increment greater than 5000 only.**  
-To generate this insight the following analysis were carried out:
-1. Firstly, an edit of a column name was carried out.
-2. All three datasets;
-- Employee dataset (https://github.com/SeunA88/Deriving-Insights-from-Datasets-using-SQL/blob/main/Employee.csv)
-- Department dataset (https://github.com/SeunA88/Deriving-Insights-from-Datasets-using-SQL/blob/main/Department.csv)
-- Salary dataset (https://github.com/SeunA88/Deriving-Insights-from-Datasets-using-SQL/blob/main/Salary.csv)
-were used for this analysis, an 'INNER JOIN' function was used to connect the datasets.
-3. Other functions like 'CONCAT', 'AVERAGE', 'GROUP BY' were then used to write the queries for this analysis.
-   
+
+- **The average area in square miles for countries in the 'upper middle income region'. The result was compared to the rest of the income categories**.
+To generate this insight the following steps were carried out:
+1. Two datasets were used; Land_area and Region_ dataset.
+2. The average total area in square miles was calculated using AVERAGE function and was used inconjustion with the GROUP BY clause.  
+3. Then the two datasets were joined using JOIN function and filtered to get the results.
+4. WHERE clause or HAVING clause was used to filter the datasets to get the result for 'upper middle income' region.
+5. The same steps were carried out for the other income groups/categories.
+
 #### Below are the queries used for this analysis and their results:
-![](Task23.png)
-![](Task231.png)
+![](6.png)
+
+![](7.png)
+
+![](8.png)
+
+![](9.png)
+
+---
+
+- **The total forest area in square km for countries in the 'high income' group.  The result was compared to the rest of the income categories**.
+  To generate this insight the following steps were carried out:
+1. Two datasets were used; forest_area and Region_ dataset.
+2. The forest area in square km column was checked for presence of null values.
+3. All null values were replaced with the average forest area in square km. 
+3. The total forest area in square km for countries was calculated using SUM function and was used in conjustion with the GROUP BY clause.  
+4. Then the two datasets were joined using JOIN function and filtered to get the results.
+5. WHERE clause or HAVING clause was used to filter the datasets to get the result for 'high income' region.
+6. The same steps were carried out for the other income groups/categories.
+
+#### Below are the queries used for this analysis and their results:
+![](10.png)
+
+![](11.png)
+
+![](12.png)
+
+![](13.png)
+
+---
+
+- **The countries from each region (continent) having the highest total forest areas.** 
+ To generate this insight the following steps were carried out:
+1. Two datasets were used; forest_area and Region_ dataset.
+2. The total forest area in square km for countries was calculated using SUM function and was used in conjustion with the GROUP BY clause.  
+3. The two datasets were joined using JOIN function and filtered to get the results.
+4. Functions like RANK and SUBQUERY was used to achieve the result.
+
+#### Below are the queries used for this analysis and their results:
+![](14.png)
+
+---
 
 ## Conclusion
-SQL is a great tool in relating with datasets, retrieving data and generating useful insights from them. This analysis is a good illustration to the various functions that can be used for data analysis in SQL. Insights generated from the datasets above can be put to use for Business analysis and by stakeholders to make informed decisions. 
+SQL is a great tool in relating with datasets, retrieving data and generating useful insights from them. This analysis is a good illustration to the various functions that can be used for data analysis in SQL. Insights generated from this deforestation analysis can generate useful information that would help design remedies towards deforestaion problems and hereby avert all damages resulting from the aftermath of deforestation.
