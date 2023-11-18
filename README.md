@@ -32,7 +32,7 @@ To generate this insight the following steps were carried out:
 3. Aggregate function "COUNT" was used for this analysis to count the total number of countries.
 
 #### Below are the queries used for this analysis and their results:
-![](2.png)
+![](2A.png)
 
 ---
    
