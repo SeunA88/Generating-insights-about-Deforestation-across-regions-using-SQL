@@ -24,7 +24,7 @@ The datasets show the deforestation details of about 217 countries in the world 
 
 ---
 
-- **A new database "PROJECT" was created and the 3 datasets were selected to view the columns therein.**
+- **A new database "PROJECT" was created and the 3 datasets were imported into the database and then selected to view the columns therein.**
 
 #### Below are the queries used for this analysis and their results:
 ![](1.png)
