@@ -33,6 +33,7 @@ The datasets show the deforestation details of about 217 countries in the world 
 
 
 - **Total number of countries involved in deforestation.**
+  
 To generate this insight the following steps were carried out:
 1. The dataset Region_ was used.
 2. Distinct countries were selected.
@@ -47,6 +48,7 @@ Please note: 217 distinct countries were analysed, the 218th in the dataset was 
 ---
    
 - **The income groups of countries having total area ranging from 75,000 to 150,000 square meter**.
+  
 To generate this insight the following steps were carried out:
 1. Two datasets were used; Land_area and Region_ dataset.
 2. The total area in square miles column was checked for presence of null values.
@@ -62,6 +64,7 @@ To generate this insight the following steps were carried out:
 ---
 
 - **The average area in square miles for countries in the 'upper middle income region'. The result was compared to the rest of the income categories**.
+
 To generate this insight the following steps were carried out:
 1. Two datasets were used; Land_area and Region_ dataset.
 2. The average total area in square miles was calculated using AVERAGE function and was used inconjustion with the GROUP BY clause.  
@@ -81,7 +84,8 @@ To generate this insight the following steps were carried out:
 ---
 
 - **The total forest area in square km for countries in the 'high income' group.  The result was compared to the rest of the income categories**.
-  To generate this insight the following steps were carried out:
+
+   To generate this insight the following steps were carried out:
 1. Two datasets were used; forest_area and Region_ dataset.
 2. The forest area in square km column was checked for presence of null values.
 3. All null values were replaced with the average forest area in square km. 
@@ -102,7 +106,8 @@ To generate this insight the following steps were carried out:
 ---
 
 - **The countries from each region (continent) having the highest total forest areas.** 
- To generate this insight the following steps were carried out:
+
+To generate this insight the following steps were carried out:
 1. Two datasets were used; forest_area and Region_ dataset.
 2. The total forest area in square km for countries was calculated using SUM function and was used in conjustion with the GROUP BY clause.  
 3. The two datasets were joined using JOIN function and filtered to get the results.
