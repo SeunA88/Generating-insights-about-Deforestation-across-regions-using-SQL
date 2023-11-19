@@ -20,7 +20,7 @@ From these data sets, the following insights were generated:
 
 - **Overview of the datasets.**
   
-The datasets show the deforestation details of about 217 countries in the world from the year 1990 to year 2016. The countries were divided into four income groups; low income, high income, upper middle income and lower middle income groups/categories, and seven regions or continents including East Asia & Pacific, Europe & Central Asia, Latin America & Caribbean, Middle East & North Africa, North America, South Asia and Sub-Saharan Africa. The country Monaco has the smallest total area by square miles while Russian Federation has the largest. Faroe Islands have the smallest forest area by square kilometre while Russian Federation has the largest.
+The datasets show the deforestation details of about 217 countries in the world from the year 1990 to year 2016. The countries were divided into four income groups; low income, high income, upper middle income and lower middle income groups/categories, and seven regions or continents including East Asia & Pacific, Europe & Central Asia, Latin America & Caribbean, Middle East & North Africa, North America, South Asia and Sub-Saharan Africa. The country Monaco has the smallest total area by square miles while Russian Federation has the largest. Faroe Islands has the smallest forest area by square kilometre while Russian Federation has the largest.
 
 ---
 
