@@ -71,6 +71,7 @@ To generate this insight the following steps were carried out:
 3. Then the two datasets were joined using JOIN function and filtered to get the results.
 4. WHERE clause or HAVING clause was used to filter the datasets to get the result for 'upper middle income' region.
 5. The same steps were carried out for the other income groups/categories.
+6. Then, the result of the income groups were viewed together using the GROUP BY and ORDER BY clauses
 
 #### Below are the queries used for this analysis and their results:
 ![](6.png)
@@ -80,6 +81,8 @@ To generate this insight the following steps were carried out:
 ![](8.png)
 
 ![](9.png)
+
+![](15..png)
 
 ---
 
@@ -93,6 +96,7 @@ To generate this insight the following steps were carried out:
 4. Then the two datasets were joined using JOIN function and filtered to get the results.
 5. WHERE clause or HAVING clause was used to filter the datasets to get the result for 'high income' region.
 6. The same steps were carried out for the other income groups/categories.
+7. Then, the result of the income groups were viewed together using the GROUP BY and ORDER BY clauses
 
 #### Below are the queries used for this analysis and their results:
 ![](10.png)
@@ -102,6 +106,8 @@ To generate this insight the following steps were carried out:
 ![](12.png)
 
 ![](13.png)
+
+![](16.png)
 
 ---
 
